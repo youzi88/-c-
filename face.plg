@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: face - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/face.res" /d "_DEBUG" /d "_AFXDLL" "E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\face.rc"" 
+Creating temporary file "C:\DOCUME~1\地地猪\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/face.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp"
+"E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\face.cpp"
+"E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\faceDoc.cpp"
+"E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\faceView.cpp"
+"E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\MainFrm.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\地地猪\LOCALS~1\Temp\RSP1C.tmp"" 
+Creating temporary file "C:\DOCUME~1\地地猪\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/face.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\地地猪\LOCALS~1\Temp\RSP1D.tmp"" 
+Creating temporary file "C:\DOCUME~1\地地猪\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/face.pdb" /debug /machine:I386 /out:"Debug/face.exe" /pdbtype:sept 
+".\Debug\DIB.obj"
+".\Debug\face.obj"
+".\Debug\faceDoc.obj"
+".\Debug\faceView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\face.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\地地猪\LOCALS~1\Temp\RSP1E.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DIB.cpp
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(626) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(676) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(686) : warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(694) : warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(700) : warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(712) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(714) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(716) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(718) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(719) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(721) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(723) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(727) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(729) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(731) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(803) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(806) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(816) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(819) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(841) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(842) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(1050) : warning C4101: 'cr' : unreferenced local variable
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(1734) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(1977) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(2029) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(2029) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(2041) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\资料专区\用户资料\汪晓平\book\vc工程实例\11-15\code\facea\facea\DIB.cpp(2041) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+face.cpp
+faceDoc.cpp
+faceView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+face.exe - 0 error(s), 28 warning(s)
+</pre>
+</body>
+</html>
